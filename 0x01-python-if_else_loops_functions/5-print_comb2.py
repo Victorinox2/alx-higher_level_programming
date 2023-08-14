@@ -7,4 +7,4 @@ for number in range(0, 100):
     if (number == 99):
         print("{}".format(number), end=",")
     else:
-        print("{:02}".format(number), end=",")
+        print("{:02}".format(number), end=", ")
