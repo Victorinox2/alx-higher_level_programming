@@ -4,6 +4,6 @@
 # Auth: Victorinox2
 
 for num in range(97, 123):
-    print("{}".format(chr(num)), end="")
-if chr(num == 113) && chr(num == 101):
-    continue
+    if chr(num) is not 'q' and chr(num) is not 'e':
+        print("{}".format(chr(num)), end="")
+
