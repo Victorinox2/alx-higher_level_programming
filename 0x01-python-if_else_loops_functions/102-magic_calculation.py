@@ -3,7 +3,7 @@
 # File: 102-magic_calculation.py
 # Auth: Victorinox2
 
-def magic_calculation(a,b,c):
+def magic_calculation(a, b, c):
     if a < b:
         return (c)
     if c > b:
