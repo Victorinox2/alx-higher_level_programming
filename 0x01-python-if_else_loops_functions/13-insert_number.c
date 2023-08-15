@@ -1,9 +1,11 @@
+#include "lists.h"
+
+
 /**
  * File: 13-insert_number.c
  * Auth: Victorinox2
  */
 
-#include "lists.h"
 
 /*
  * insert_node - insert a number to sorted singly-linked-list
@@ -29,7 +31,7 @@ listint_t *insert_node(listint_t **head, int number)
 		return (new);
 	}
 
-	while (node && node->next && node->next-> < number)
+	while (node && node->next && node->next->n < number)
 		node = node->next;
 
 
