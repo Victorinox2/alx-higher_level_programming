@@ -13,11 +13,11 @@
  * otherwise - a pointer the new node
  */
 
-list_t *insert_node(list_t **head int number)
+listint_t *insert_node(listint_t **head, int number)
 {
-	listint_t *node = *head *new;
+	listint_t *node = *head, *new;
 
-	new malloc(sizeof(listint_t));
+	new = malloc(sizeof(listint_t));
 	if (new == NULL)
 		return (NULL);
 	new->n = number;
@@ -31,7 +31,7 @@ list_t *insert_node(list_t **head int number)
 
 	while (node && node->next && node->next-> < number)
 		node = node->next;
-	new->next = new;
+	new->next = next;
 	node->next = new;
 
 	return (new);
