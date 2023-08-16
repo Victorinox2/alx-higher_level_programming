@@ -5,7 +5,6 @@
 
 import add_0.py
 
-addition add_0.add(a, b):
     a = 1
     b = 2
-    print("{} + {}".format(add(a, b)))
+    print("{} + {} = {}".format(a, b, add(a, b)))
