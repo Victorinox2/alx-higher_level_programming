@@ -3,7 +3,7 @@
 # File: 0-add.py
 # Auth: Victorinox2
 
-import add_0.py
+import add_0
 
     a = 1
     b = 2
