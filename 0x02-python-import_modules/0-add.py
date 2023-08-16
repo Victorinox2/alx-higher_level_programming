@@ -6,11 +6,8 @@
 if __name__ == "__main__":
 
     """Prints the addition of 1 and 2"""
-
-    import add_0
-
-    addition = add_0.add(a, b)
-
+    from add_0 import add
+    
     a = 1
     b = 2
-    print("{} + {} = {}".format(a, b, addition)))
+    print("{} + {} = {}".format(a, b, add(a,b)))
