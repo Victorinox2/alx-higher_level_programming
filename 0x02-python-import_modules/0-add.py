@@ -3,7 +3,8 @@
 # File: 0-add.py
 # Auth: Victorinox2
 
-import add_0
+if __name__ == "__main__":
+    """Prints the addition of 1 and 2"""
 
     a = 1
     b = 2
