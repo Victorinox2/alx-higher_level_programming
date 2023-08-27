@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 # File: 1-calculation.py
 # Auth: Victorinox2
 
