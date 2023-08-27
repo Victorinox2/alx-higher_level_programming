@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
-# File: 102-magic_calculation.py
-# Auth: Victorino2
+# 102-magic_calculation.py
+# Victorino2
 
 def magic_calculation(a, b):
     """Match bytecode provided by CS Tech"""
