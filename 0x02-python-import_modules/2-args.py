@@ -1,7 +1,6 @@
 #!/usr/bin/python
-
-# File: 2-args.py
-# Auth: Victorinox
+# 2-args.py
+# Victorinox2
 
 if __name__ == "__main__":
     """print the number of list of an argument"""
