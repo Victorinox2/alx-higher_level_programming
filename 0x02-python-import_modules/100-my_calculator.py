@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
-# File: 100-my_calculator.py
-# Auth: Victorinox2
+# 100-my_calculator.py
+# Victorinox2
 
 if __name__ == "__main__":
     """Handle basic arithmetic operations."""
