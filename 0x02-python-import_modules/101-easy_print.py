@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 # File: 101-easy_print.py
 # Auth: Victorinox2
 
