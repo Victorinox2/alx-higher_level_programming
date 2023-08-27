@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # 2-args.py
 # Victorinox2
 
