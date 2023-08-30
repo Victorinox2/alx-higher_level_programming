@@ -2,7 +2,6 @@
 # 0-safe_print_list.py
 # Victorinox3
 
-#!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     y = 0
     for z in range(x):
