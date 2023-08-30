@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# 101-safe_function.py
+# Victorinox2
+
 import sys
 def safe_function(fct, *args):
     try:
