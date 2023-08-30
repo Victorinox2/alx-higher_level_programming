@@ -1,12 +1,17 @@
-nclude <Python.h>
+/*
+ * File: 103-python.c
+ * Auth: Victorinox2
+ */
+
+#include <Python.h>
 
 void print_python_list(PyObject *p);
 void print_python_bytes(PyObject *p);
 void print_python_float(PyObject *p);
 
 /**
- * print_python_list - prints the basic info about Python lists.
- * @p: the PyObject list .
+ * print_python_list - prints the basic info about the Python lists.
+ * @p: PyObject list object.
  */
 void print_python_list(PyObject *p)
 {
@@ -42,8 +47,8 @@ void print_python_list(PyObject *p)
 }
 
 /**
- * print_python_bytes - prints the basic info about the python byte objects.
- * @p: the PyObject byte .
+ * print_python_bytes - prints the basic info about the Python byte objects.
+ * @p: PyObject byte object.
  */
 void print_python_bytes(PyObject *p)
 {
@@ -80,7 +85,7 @@ void print_python_bytes(PyObject *p)
 
 /**
  * print_python_float - prints the basic info about the Python float objects.
- * @p: the A PyObject float .
+ * @p: PyObject float object.
  */
 void print_python_float(PyObject *p)
 {
