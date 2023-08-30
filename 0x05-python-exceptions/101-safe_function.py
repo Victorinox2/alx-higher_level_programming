@@ -9,7 +9,7 @@ def safe_function(fct, *args):
     """Executes a function safely.
 
     Args:
-        fct: The function to execute.
+        fct: The function to be executed.
         args: Arguments for fct.
 
     Returns:
