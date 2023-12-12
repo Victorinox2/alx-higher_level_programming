@@ -1,8 +1,3 @@
 #!/bin/bash
-
-# This script sends a request to the provided URL and displays only status code.
-
-url=$1
-
-# Use curl to send a request to the provided URL and print only the HTTP status code
-curl -s -o /dev/null -w "%{http_code}" "$url"
+# that sends a request to a URL passed as an argument, and displays only the status code of the response.
+curl -s -o /dev/null -w "%{http_code}" "$1"
