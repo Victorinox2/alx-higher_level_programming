@@ -1,10 +1,18 @@
 0x15. JavaScript - Web jQuery
 Front-end
 JavaScript
- By: Guillaume, CTO at Holberton School
  Weight: 1
- Ongoing second chance project - started Jan 10, 2024 6:00 AM, must end by Jan 16, 2024 6:00 AM
- Manual QA review must be done (request it when you are done with the project)
+ Project over - took place from Jan 10, 2024 6:00 AM to Jan 11, 2024 6:00 AM
+ Manual QA review was done by Jayeoba Paul on Jan 16, 2024 4:52 AM
+In a nutshell…
+Manual QA review: 84.1/86 mandatory & 38.4/40 optional
+Altogether:  191.67%
+Mandatory: 97.79%
+Optional: 96.0%
+Calculation:  97.79% + (97.79% * 96.0%)  == 191.67%
+Overall comment:
+Weldone Project!
+
 Concepts
 For this project, we expect you to look at these concepts:
 
@@ -73,6 +81,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. No JQuery
 mandatory
+Score: 98.57% (Checks completed: 100.0%)
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
 
 You must use document.querySelector to select the HTML tag
@@ -104,6 +113,7 @@ File: 0-script.js
  
 1. With JQuery
 mandatory
+Score: 97.14% (Checks completed: 100.0%)
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
 
 You can’t use document.querySelector to select the HTML tag
@@ -136,6 +146,7 @@ File: 1-script.js
  
 2. Click and turn red
 mandatory
+Score: 95.56% (Checks completed: 100.0%)
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000) when the user clicks on the tag DIV#red_header:
 
 You can’t use document.querySelector to select the HTML tag
@@ -169,6 +180,7 @@ File: 2-script.js
  
 3. Add `.red` class
 mandatory
+Score: 96.67% (Checks completed: 100.0%)
 Write a JavaScript script that adds the class red to the <header> element when the user clicks on the tag DIV#red_header
 
 You can’t use document.querySelector to select the HTML tag
@@ -207,6 +219,7 @@ File: 3-script.js
  
 4. Toggle classes
 mandatory
+Score: 97.14% (Checks completed: 100.0%)
 Write a JavaScript script that toggles the class of the <header> element when the user clicks on the tag DIV#toggle_header:
 
 The <header> element must always have one class: red or green, never both in the same time and never empty.
@@ -250,6 +263,7 @@ File: 4-script.js
  
 5. List of elements
 mandatory
+Score: 97.78% (Checks completed: 100.0%)
 Write a JavaScript script that adds a <li> element to a list when the user clicks on the tag DIV#add_item:
 
 The new element must be: <li>Item</li>
@@ -290,6 +304,7 @@ File: 5-script.js
  
 6. Change the text
 mandatory
+Score: 100.0% (Checks completed: 100.0%)
 Write a JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header
 
 You can’t use document.querySelector to select the HTML tag
@@ -325,6 +340,7 @@ File: 6-script.js
  
 7. Star wars character
 mandatory
+Score: 97.78% (Checks completed: 100.0%)
 Write a JavaScript script that fetches the character name from this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json
 
 The name must be displayed in the HTML tag DIV#character
@@ -361,6 +377,7 @@ File: 7-script.js
  
 8. Star Wars movies
 mandatory
+Score: 98.89% (Checks completed: 100.0%)
 Write a JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.alx-tools.com/api/films/?format=json
 
 All movie titles must be list in the HTML tag UL#list_movies
@@ -398,6 +415,7 @@ File: 8-script.js
  
 9. Say Hello!
 mandatory
+Score: 98.18% (Checks completed: 100.0%)
 Write a JavaScript script that fetches from https://hellosalut.stefanbohacek.dev/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.
 
 The translation of “hello” must be displayed in the HTML tag DIV#hello
@@ -435,6 +453,7 @@ File: 9-script.js
  
 10. No jQuery - document loaded
 #advanced
+Score: 97.78% (Checks completed: 100.0%)
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
 
 You must use document.querySelector to select the HTML tag
@@ -467,6 +486,7 @@ File: 100-script.js
  
 11. List, add, remove
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 Write a JavaScript script that adds, removes and clears LI elements from a list when the user clicks:
 
 The new element must be: <li>Item</li>
@@ -513,6 +533,7 @@ File: 101-script.js
  
 12. Say hello to everybody!
 #advanced
+Score: 97.0% (Checks completed: 100.0%)
 Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
 
 You should use this API service: https://www.fourtonfish.com/hellosalut/hello/
@@ -556,6 +577,7 @@ File: 102-script.js
  
 13. And press ENTER
 #advanced
+Score: 90.0% (Checks completed: 90.91%)
 Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
 
 You should use this API service: https://www.fourtonfish.com/hellosalut/hello/
@@ -596,7 +618,3 @@ Repo:
 GitHub repository: alx-higher_level_programming
 Directory: 0x15-javascript-web_jquery
 File: 103-script.js
- 
-Copyright © 2024 ALX, All rights reserved.
-
-
